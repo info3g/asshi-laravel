@@ -20,7 +20,7 @@ http://localhost:8000/public/test/{id}
 request type Post   <p>
 http://localhost:8000/public/test/
 </p>
-see screenshot http://prntscr.com/iwvoiu
+see screenshot http://prntscr.com/iwvvaj
 
 <p align="center">8. Single results update by id </p>
 request type Get  <p>
@@ -31,10 +31,10 @@ http://localhost:8000/public/test/{id}/edit
 request type update/patch  <p>
 http://localhost:8000/public/test/{id}
 </p>
-screenshot http://prntscr.com/iwvozc
+
 
 <p align="center">9. delete a  recored by id</p>
 request type delete   <p>
 http://localhost:8000/public/test/{id}
 </p>
-screenshot http://prntscr.com/iwvpw1
+
