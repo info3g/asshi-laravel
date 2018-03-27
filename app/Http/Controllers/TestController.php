@@ -39,8 +39,8 @@ class TestController extends Controller
     public function store(Request $request)
     {
         $test= New Test;
-	   $test->data=Input::get('data');
-	   $test->custom=Input::get('custom');
+	   $test->data=Input::get('email');
+	   $test->custom=Input::get('phone');
 	   $test->save();
 	   
 	   return response()->json($test->id);
@@ -84,8 +84,8 @@ class TestController extends Controller
     public function update(Request $request, $id)
     {
          $test=  Test::find($id);
-	   $test->data=Input::get('data');
-	   $test->custom=Input::get('custom');
+	   $test->data=Input::get('email');
+	   $test->custom=Input::get('phone');
 	   $test->save();
 	   
 	   return response()->json($test->id);
